@@ -1,0 +1,62 @@
+.robot-icon {
+    max-width: 80%;
+}
+
+.menu-btn {
+    max-width: 100%;
+}
+
+.user-icon {
+    max-width: 80%;
+}
+
+.wraper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    background-color: lightgray;
+    min-width: 30%;
+    max-width: 30%;
+    min-height: 100vh;
+    transition-duration: 1s;
+}
+
+#sidebar.active {
+    margin-left: -35%;
+    transition-duration: 1s;
+}
+
+.container-fluid {
+    margin-left: 5%;
+    min-width: 60%;
+}
+
+.btn-form {
+    margin-top: 10px;
+}
+
+button {
+    font-stretch: condensed;
+}
+
+.btn {
+    white-space: normal;
+}
+
+.nav-link {
+    white-space: normal;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.login-avatar {
+    max-width: 30%;
+}
+
+.form-group {
+    margin-top: 5px;
+}
