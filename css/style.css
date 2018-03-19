@@ -30,6 +30,7 @@
 
 .container-fluid {
     margin-left: 5%;
+    margin-bottom: 5px;
     min-width: 60%;
 }
 
@@ -59,4 +60,9 @@ button {
 
 .form-group {
     margin-top: 5px;
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
