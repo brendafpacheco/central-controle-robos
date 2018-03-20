@@ -2,9 +2,11 @@ const locationButton = document.querySelector('#location');
 const form = document.querySelector('form');
 
 function fillForm(position) {
-    form.altitude = position.coords.altitude;
-    form.latitude = position.coords.latitude;
-    form.longitude = position.coords.longitude;
+    //console.log(position);
+    //console.log('ok!');
+    form.altitude.value = position.coords.altitude;
+    form.latitude.value = position.coords.latitude;
+    form.longitude.value = position.coords.longitude;
 }
 
 function getLocation() {
