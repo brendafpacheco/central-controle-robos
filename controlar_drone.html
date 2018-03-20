@@ -49,17 +49,17 @@
         </nav>
         <div class="container-fluid">
             <h4 class="text-center">Drone</h4>
-            <button type="button" name="" id="" class="btn btn-lg btn-block">Usar minha localização como waypoint</button>
+            <button type="button" name="" id="location" class="btn btn-lg btn-block">Usar minha localização como waypoint</button>
             <p class="text-center">Ou</p>
             <form>
                 <div class="form-group">
-                    <input class="form-control" type="number" required placeholder="Digite a latitude">
+                    <input name="latitude" class="form-control" type="number" required placeholder="Digite a latitude">
                 </div>
                 <div class="form-group">
-                    <input type="number" class="form-control" required placeholder="Digite a latitude">
+                    <input name="longitude" type="number" class="form-control" required placeholder="Digite a longitude">
                 </div>
                 <div class="form-group">
-                    <input type="number" class="form-control" required placeholder="Digite a latitude">
+                    <input name="altitude" type="number" class="form-control" required placeholder="Digite a altitude">
                 </div>
             </form>
             <button type="submit" class="btn btn-form btn-primary btn-block" role="button">Enviar drone para waypoint</button>
@@ -75,6 +75,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script src="js/sidebar.js"></script>
+    <script src="js/controldrone.js"></script>
 </body>
 
 </html>
