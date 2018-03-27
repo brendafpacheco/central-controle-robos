@@ -4,7 +4,7 @@
   "theme_color": "purple",
   "background_color": "purple",
   "display": "standalone",
-  "start_url": "central-controle-robos/",
+  "start_url": "/central-controle-robos/",
   "icons": [
     {
       "src": "img/icons/icon-72x72.png",
