@@ -1,11 +1,10 @@
 {
   "name": "CentraldeControledeRobos",
   "short_name": "ControleRobos",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
+  "theme_color": "purple",
+  "background_color": "purple",
   "display": "standalone",
-  "start_url": "/",
-  "orientation": "portrait",
+  "start_url": "central-controle-robos/",
   "icons": [
     {
       "src": "img/icons/icon-72x72.png",
