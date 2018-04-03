@@ -4,20 +4,20 @@ self.addEventListener('install', function (event) {
     event.waitUntil(
         caches.open(CACHE_NAME).then(function (cache) {
             return cache.addAll([
-                '/',
-                '/index.html',
-                '/album.html',
-                '/cadastro.html',
-                '/controlar_braco.html',
-                '/comtrolar_carro.html',
-                '/controlar_drone.html',
-                '/controlar.html',
-                '/login.html',
-                '/sobre.html',
-                '/manifest.json',
-                '/css/',
-                '/img/',
-                '/js/'
+                '/central-controle-robos/',
+                '/central-controle-robos/index.html',
+                '/central-controle-robos/album.html',
+                '/central-controle-robos/cadastro.html',
+                '/central-controle-robos/controlar_braco.html',
+                '/central-controle-robos/comtrolar_carro.html',
+                '/central-controle-robos/controlar_drone.html',
+                '/central-controle-robos/controlar.html',
+                '/central-controle-robos/login.html',
+                '/central-controle-robos/sobre.html',
+                '/central-controle-robos/manifest.json',
+                '/central-controle-robos/css/',
+                '/central-controle-robos/img/',
+                '/central-controle-robos/js/'
             ])
         })
     )
