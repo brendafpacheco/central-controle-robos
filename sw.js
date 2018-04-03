@@ -9,15 +9,27 @@ self.addEventListener('install', function (event) {
                 '/central-controle-robos/album.html',
                 '/central-controle-robos/cadastro.html',
                 '/central-controle-robos/controlar_braco.html',
-                '/central-controle-robos/comtrolar_carro.html',
+                '/central-controle-robos/controlar_carro.html',
                 '/central-controle-robos/controlar_drone.html',
                 '/central-controle-robos/controlar.html',
                 '/central-controle-robos/login.html',
                 '/central-controle-robos/sobre.html',
                 '/central-controle-robos/manifest.json',
-                '/central-controle-robos/css/',
-                '/central-controle-robos/img/',
-                '/central-controle-robos/js/'
+                '/central-controle-robos/css/style.css',
+                '/central-controle-robos/img/car.jpg',
+                '/central-controle-robos/img/drone.jpg',
+                '/central-controle-robos/img/menu.png',
+                '/central-controle-robos/img/robot_arm.jpg',
+                '/central-controle-robos/img/robot.png',
+                '/central-controle-robos/img/user.png',
+                '/central-controle-robos/img/album/placeholder.png',
+                '/central-controle-robos/js/album.js',
+                '/central-controle-robos/js/cadastro.js',
+                '/central-controle-robos/js/controlar.js',
+                '/central-controle-robos/js/controlarm.js',
+                '/central-controle-robos/js/controldrone.js',
+                '/central-controle-robos/js/main.js',
+                '/central-controle-robos/js/sidebar.js'
             ])
         })
     )
