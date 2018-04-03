@@ -15,9 +15,9 @@ self.addEventListener('install', function (event) {
                 'login.html',
                 'sobre.html',
                 'manifest.json',
-                'css/style.css',
-                'img/*',
-                'js/*'
+                'css/',
+                'img/',
+                'js/'
             ])
         })
     )
