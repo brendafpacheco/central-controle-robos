@@ -72,8 +72,8 @@
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js').then(function () {
                 console.log('service worker registrado');
-            }).catch(function () {
-                console.warn('registro de service worker falhou')
+            }).catch(function (err) {
+                console.warn(err)
             })
         }
     </script>
