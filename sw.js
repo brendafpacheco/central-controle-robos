@@ -23,13 +23,7 @@ self.addEventListener('install', function (event) {
                 '/central-controle-robos/img/robot.png',
                 '/central-controle-robos/img/user.png',
                 '/central-controle-robos/img/album/placeholder.png',
-                '/central-controle-robos/js/album.js',
-                '/central-controle-robos/js/cadastro.js',
-                '/central-controle-robos/js/controlar.js',
-                '/central-controle-robos/js/controlarm.js',
-                '/central-controle-robos/js/controldrone.js',
-                '/central-controle-robos/js/main.js',
-                '/central-controle-robos/js/sidebar.js'
+                '/central-controle-robos/all.min.js'
             ])
         })
     )
