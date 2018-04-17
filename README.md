@@ -48,4 +48,4 @@ Também buscou-se otimizar a performance do site, obedecendo às seguintes diret
 
 9)Não escale imagens direto no código
 
-10)Otimize suas imagens
+10)Otimize suas imagens(Optimizilla)
